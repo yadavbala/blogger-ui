@@ -1,0 +1,70 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+.header{
+    font-size:20px;
+    padding:10px;
+    font-weight: 600;
+    box-shadow: 0 0 2px 1px #ccc;
+    background-color:#eee
+}
+
+.userlist{
+    list-style-type: none;
+    padding:0
+}
+
+.usersublist a{
+    text-decoration: none;
+    color:midnightblue
+}
+
+.usersublist{
+    padding:5px;
+    color:midnightblue
+}
+
+.usersublist:hover{
+    transition: 0.3s ease;
+  
+   box-shadow:0 0 2px 2px #ccc
+}
+
+.usersublist:nth-of-type(odd){
+    background-color:floralwhite
+}
+
+.usersublist:nth-of-type(even){
+    background-color:bisque
+}
+
+.username{
+    color:gold
+}
+
+.postdetails{
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid bisque;
+    background:cornsilk;
+    color:gold
+}
+
+.colorcomments{
+    border: 1px solid bisque;
+   padding:0
+}
+
+.linkuser{
+    padding:10px;
+    box-shadow: 0 0 1px 2px #ccc;
+    background-color:whitesmoke;
+}
+
+.linkuser a{
+    text-decoration: none;
+    color:hotpink
+}
+
+
